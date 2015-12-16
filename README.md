@@ -1,6 +1,6 @@
 # sufia.io
 
-A home for [Sufia](http://sufia.io/) on the world wide web
+A home for [Sufia](http://github.org/projecthydra/sufia) on the world wide web
 
 ## Contributing
 
