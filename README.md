@@ -1,2 +1,2 @@
-# sufia.github.io
+# sufia-web
 A home for Sufia on the world wide web
