@@ -11,9 +11,9 @@ While code contributions require contributor license agreements to be on file wi
 There are two ways to contribute changes to the documentation.
 
 1. *Easy*: send email to the [hydra-tech mailing list](https://groups.google.com/forum/#!forum/hydra-tech) and ask the community to make the change on your behalf.
-2. *Advanced*: create a GitHub pull request -- a common mechanism for requesting, discussing, and approving changes within the Hydra community.
+2. *Advanced*: create a GitHub pull request.
 
-If you choose option 2, here's a guide you can follow.
+If you choose option 2, here's a guide to help you.
 
 ### Via Pull Request
 
