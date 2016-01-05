@@ -1,6 +1,6 @@
 # Contributing Guide
 
-We want your help to make Sufia's documentation great. There are a few guidelines that we need contributors to follow to make it easier to work together.
+We want your help to make [Sufia's documentation](http://sufia.io/) great. There are a few guidelines that we need contributors to follow to make it easier to work together.
 
 ## Hydra Project Intellectual Property Licensing and Ownership
 
