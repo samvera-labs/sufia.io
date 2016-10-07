@@ -33,6 +33,7 @@ layout: default
                             <li><strong><a href="#q18">What does Sufia integrate with?</a></strong></li>
                             <li><strong><a href="#q19">Does it integrate with ...?</a></strong></li>
                             <li><strong><a href="#q20">How do we get started?</a></strong></li>
+                            <li><strong><a href="#q21">How does Sufia handle many/large files?</a></strong></li>
                         </ul>
                         <footer>
                             <a href="https://github.com/projecthydra/sufia" class="button"><span class="icon fa-github">&nbsp;</span>Take me to the code</a>
@@ -132,9 +133,11 @@ For now it provides some basic stats around use and users, such as the following
                             <dt style="margin-top: 25px"><strong><a name="q19">Does it work with DPN / APTrust / DuraCloud / DPLA / MetaArchive, etc.?</a></strong></dt>
                             <dd style="margin-top: 5px">There are many such services in this space, and Sufia does not provide integration with any out of the box. There are some Sufia installations which do integrate with some of the above services, which you may consult for hints and tips.</dd>
 
-                            <dt style="margin-top: 25px"><strong><a name="q20">We’re ready to test/move forward - what do we need to do to get started?</a></strong></dt>
+                            <dt style="margin-top: 25px"><strong><a name="q20">We're ready to test/move forward - what do we need to do to get started?</a></strong></dt>
                             <dd style="margin-top: 5px">Great to hear it! There are numerous ways to plug in. First, be sure to join the hydra-tech and hydra-community lists to stay aware of the latest developments and to share your progress. Attend the annual Hydra Connect event, which is the one event that all Hydra community members endeavor to attend to connect with fellow Hydra adopters. If your developers and devops have not done any Hydra-specific training, have them go through the Dive into Hydra tutorial and keep an eye out for upcoming Hydracamp training sessions. Hydracamp is a cornerstone of the Hydra ramping-up process. Much of the work done in Hydra, and now in Sufia, is done in Interest Groups and Working Groups, so review the list of IGs/WGs and consider joining an existing group and starting your own. And last but not least do feel free to drop a line to Sufia’s product owner (<a href="mailto:mjgiarlo@stanford.edu">Mike Giarlo</a>) who can help orient you and get you whatever information or context would be helpful in planning and decision making.</dd>
 
+                            <dt style="margin-top: 25px"><strong><a name="q21">How does Sufia handle many/large files?</a></strong></dt>
+                            <dd style="margin-top: 5px">Sufia comes preconfigured to limit the number of files that can be uploaded at one time to 100, and each file is allowed to be up to 500MB. There is <a href="https://github.com/projecthydra/sufia/issues/1827">an open issue to revisit these numbers and allow them to be more easily configurable</a> -- if this is a need of yours, we encourage you to get in touch especially if you have development cycles to work on this. Beyond these limits, we suggest using Sufia's integration with the browse-everything gem to upload large files asynchronously via a third-party storage provider such as Dropbox or Google Drive. Another option that browse-everything provides, though this requires some small amount of work to set up, is to allow server-based uploads, where you open up space on your server for users to drop files into, and configure Sufia to point at your server space.</dd>
                         </dl>
                     </article>
                 </div>
